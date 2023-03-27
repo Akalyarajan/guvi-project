@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+  background-image: url("https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg");
+
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.profile img {
+	border-radius: 50%;
+}
+
+.profile h1 {
+	font-size: 36px;
+	margin-top: 20px;
+}
+
+.profile p {
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.description {
+	margin-top: 50px;
+}
+
+.description h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.skills {
+	margin-top: 50px;
+}
+
+.skills h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.skills ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.skills li {
+	display: inline-block;
+	background-color: #f2f2f2;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+	font-size: 16px;
+}
